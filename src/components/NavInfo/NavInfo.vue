@@ -2,8 +2,6 @@
   <div>
     <div class="navInfo">
       <span v-for="item in 12" :key="item" >{{name}}</span>
-      <!-- <span v-for="item in 12" :key="item">{{$route.name.name || $route.matched[0].name.name}}</span> -->
-      <!-- <span v-for="item in 12" :key="item" class="about">about</span> -->
     </div>
   </div>
 </template>

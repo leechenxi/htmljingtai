@@ -119,7 +119,6 @@ export default {
     },
     // 一级路由跳转
     routergo(item) {
-      this.item.name = About
       this.$router.push(`${item.path}`);
       this.$eventBus.$emit("itemName", item.name);
       console.log(item.name);
